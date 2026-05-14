@@ -29,7 +29,7 @@ def header_dashboard():
             height: 85px;
             border-radius: 20px;
             box-shadow: 0 4px 15px rgba(255, 180, 0, 0.5);">
-            <h2 style='text-align:left; color: #1E3A8A !important;'>SNAP<br/>CLASS</h2>
+            <h2 style='text-align:left; color: #58652F !important;'>SNAP<br/>CLASS</h2>
         </div>
         """,
         unsafe_allow_html=True
