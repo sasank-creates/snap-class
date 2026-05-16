@@ -102,7 +102,8 @@ def student_dashboard():
                 'Unenroll from this course',
                 type='tertiary',
                 use_container_width=True,
-                icon=':material/delete_forever:'
+                icon=':material/delete_forever:',
+                key=f'unenroll_{sid}'
             ):
                 unenroll_student_to_subject(student_id, sid)
                 st.toast(f'Unenrolled from {sub["name"]}')
